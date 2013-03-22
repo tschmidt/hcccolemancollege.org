@@ -1,0 +1,145 @@
+body {
+  background-color: #fff3c7;
+  background-color: rgb(255,243,199);
+  color: #494949;
+}
+
+.image-text {
+  text-indent: -9999px;
+}
+
+form, p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3,
+form h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.breathing-room {
+  margin: 20px 0 30px 0;
+}
+
+.highlight {
+  color: rgb(88,190,133);
+}
+
+/*
+ * Bootstrap Overrides
+ *===================================================
+ */
+
+.form-horizontal .control-label {
+  text-align: left;
+}
+
+/*
+ * Header
+ *===================================================
+ */
+ 
+.container {
+/*  border: 1px dotted silver;*/
+}
+
+.container > header {
+  height: 250px;
+  position: relative;
+}
+
+.container > header h1 {
+  height: 450px;
+  width: 600px;
+  background-image: url('../img/primary_header.png');
+  position: absolute;
+  left: -200px;
+  top: -160px;
+}
+
+.container > header h2 {
+  height: 450px;
+  width: 600px;
+  background-image: url('../img/secondary_header.png');
+  position: absolute;
+  bottom: -125px;
+  right: -190px;
+}
+
+
+
+/*
+ * Forms
+ *===================================================
+ */
+
+.form-horizontal textarea {
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.form-horizontal [type=submit] {
+  background-color: rgb(88,190,133);
+  border: none;
+  color: #fff;
+  display: block;
+  margin: 30px auto 90px;
+  position: relative;
+  width: 160px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.error {
+  color: #b94a48;
+}
+
+textarea.error {
+  margin-bottom: 0;
+}
+
+
+
+
+/*
+ * Mobile Settings
+ *===================================================
+ */
+
+@media (max-width: 767px) {
+  
+  .container > header h1,
+  .container > header h2 {
+    display: block;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    width: auto;
+  }
+  
+  .container > header h1 {
+    height: 255px;
+    background-position: 56% -130px;
+  }
+  
+  .container > header h2 {
+    height: 145px;
+    background-position: 56% -160px;
+  }
+  
+  .container > header {
+    height: auto;
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .form-horizontal .span6 {
+    float: none;
+  }
+}

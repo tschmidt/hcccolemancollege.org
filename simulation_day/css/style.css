@@ -1,0 +1,315 @@
+
+/* ==== Scroll down to find where to put your styles :) ==== */
+
+/*  HTML5 ✰ Boilerplate  */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+del { text-decoration: line-through; }
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+table { border-collapse: collapse; border-spacing: 0; }
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+input, select { vertical-align: middle; }
+
+body { font:13px/1.231 sans-serif; *font-size:small; } 
+select, input, textarea, button { font:99% sans-serif; }
+pre, code, kbd, samp { font-family: monospace, sans-serif; }
+
+html { overflow-y: scroll; }
+a:hover, a:active { outline: none; }
+ul, ol { margin-left: 2em; }
+ol { list-style-type: decimal; }
+nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
+small { font-size: 85%; }
+strong, th { font-weight: bold; }
+td { vertical-align: top; }
+
+sub, sup { font-size: 75%; line-height: 0; position: relative; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; padding: 15px; }
+textarea { overflow: auto; }
+.ie6 legend, .ie7 legend { margin-left: -7px; } 
+input[type="radio"] { vertical-align: text-bottom; }
+input[type="checkbox"] { vertical-align: bottom; }
+.ie7 input[type="checkbox"] { vertical-align: baseline; }
+.ie6 input { vertical-align: text-bottom; }
+label, input[type="button"], input[type="submit"], input[type="image"], button { cursor: pointer; }
+button, input, select, textarea { margin: 0; }
+input:valid, textarea:valid   {  }
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
+::selection { background:#FF5E99; color:#fff; text-shadow: none; }
+a:link { -webkit-tap-highlight-color: #FF5E99; }
+
+button {  width: auto; overflow: visible; }
+.ie7 img { -ms-interpolation-mode: bicubic; }
+
+body, select, input, textarea {  color: #444; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+a, a:active, a:visited { color: #607890; }
+a:hover { color: #036; }
+
+/*
+    // ========================================== \\
+   ||                                              ||
+   ||               Your styles !                  ||
+   ||                                              ||
+    \\ ========================================== //
+*/
+
+body {
+  background: #efefef url('../img/bg.jpg') repeat scroll left top;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+header.main {
+  padding: 20px;
+  background-color: #96c7d9;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 999;
+  position: relative;
+}
+
+header.main h1 {
+  font-size: 20px;
+  color: #666;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+  header.main h1 span {
+    font-weight: bold;
+    color: #454545;
+  }
+
+header.main h2 {
+  font-style: italic;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  color: #666;
+}
+
+#main {
+  background-color: #fff;
+  margin-top: -60px;
+  padding: 20px;
+  padding-top: 110px;
+}
+
+#main h2 {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#main p {
+  margin-bottom: 15px;
+  font-family: serif;
+}
+
+
+hr {
+  background-color: #999;
+  border: none;
+}
+
+.column {
+  width: 480px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+  .column p {
+    height: 40px;
+  }
+
+.column:nth-child(2n+2) {
+  background-color: #4d525a;
+  color: #fff;
+}
+
+.nofloat {
+  float: none;
+  clear: both;
+  width: 100% !important;
+}
+
+.explanation h3 {
+  color: #999;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+dl {
+  padding: 0 40px;
+  font-size: 12px;
+  font-family: serif;
+}
+
+  dl dt {
+    font-style: italic;
+    padding: 4px 0;
+  }
+  
+  dl dd {
+    margin-bottom: 20px;
+  }
+  
+#formContainer header {
+  background-color: #96c7d9;
+  padding: 20px 30px;
+}
+
+  #formContainer header h2 {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #formContainer form {
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  
+  form .group p {
+    padding: 0;
+    margin: 0;
+    width: 220px;
+    float: left;
+  }
+  
+  form h2 {
+    border-bottom: 1px solid silver;
+    margin: 10px 0;
+  }
+  
+  form .group h2 + p {
+    padding-top: 10px;
+  }
+  
+  label.error {
+    font-size: 10px;
+    color: red;
+    padding: 3px 0;
+  }
+
+
+
+
+
+
+
+
+
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+@media (max-width: 1000px) {
+  #wrapper {
+    width: 800px;
+  }
+  
+  .column {
+    width: 380px;
+  }
+}
+
+@media (max-width: 800px) {
+  header.main {
+    width: auto;
+  }
+  
+  header.main img {
+    display: none;
+  }
+  
+  #wrapper {
+    width: auto;
+  }
+  
+  .column {
+    width: auto;
+    float: none;
+  }
+}
+
+@media all and (orientation:portrait) {
+
+}
+
+@media all and (orientation:landscape) {
+
+}
+
+@media screen and (max-device-width: 480px) {
+
+  /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
+}
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}
