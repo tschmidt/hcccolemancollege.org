@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  	
+    <title>HCC Coleman College | 2013 ACE Awards</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/site.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  
+  <body>
+    <div class='container'>
+      <header class='clearfix'>
+        <h1 class='image-text'>ACE Awards</h1>
+        <h2 class='image-text'>2013 Nomination Form</h2>
+      </header>
+      
+      <div class='primary-content'>
+        <p>
+          The ACE Award is the highest honor a faculty or staff member can 
+          receive from HCC Coleman College. It recognizes Accountability, 
+          Communications and Ethics for instructional faculty and 
+          non-instructional staff.
+        </p>
+        
+        <p>
+          Not only is the award a great honor, it also comes with $2,000 of 
+          professional development funds for each recipient.
+        </p>
+        
+        <p class='breathing-room'>
+          <strong>Nominations are due April 5th, 2013.</strong>
+        </p>
+        
+        <p>
+          Honorees will be announced during the Employee Recognition Luncheon on
+          May 7th, 2013.
+        </p>
+        
+        <h3>Information About Your Nominee</h3>
+        
+        <script type="text/javascript">var submitted = false;</script>
+        <iframe name="hidden_frame" id="hidden_frame" style="display: none" onload="if(submitted)
+        {window.location='http://hcccolemancollege.org/ace/thank_you/';}"></iframe>
+        
+        <form class="form-horizontal" id="ss-form" action="https://docs.google.com/forms/d/1_WinC9hLEVosB1vYOUOLsW5nAdzTzXtzIW9gN828ZsA/formResponse" method="POST" target="hidden_frame" onsubmit="submitted=true">
+          <div class="row">
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_2002456290" class="control-label">Nominee's First Name</label>
+                <div class="controls">
+                  <input type="text" id="entry_2002456290" name="entry.2002456290" aria-required="true" class='required'>                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_667287943" class="control-label">Nominee's Last Name</label>
+                <div class="controls">
+                  <input type="text" id="entry_667287943" name="entry.667287943" aria-required="true" class='required'>                  
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Row -->
+          
+          <div class="row">
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_1429829333" class="control-label">Nominee's Program</label>
+                <div class="controls">
+                  <select id="entry_1429829333" name="entry.1429829333">
+                    <option value="Administrative/ Staff">Administrative/ Staff</option>
+                    <option value="Biosafety">Biosafety</option>
+                    <option value="Computed Tomography">Computed Tomography</option>
+                    <option value="Dental Assisting">Dental Assisting</option>
+                    <option value="Dental Hygiene">Dental Hygiene</option>
+                    <option value="Diagnostic Medical Sonography">Diagnostic Medical Sonography</option>
+                    <option value="Health Information Technology">Health Information Technology</option>
+                    <option value="Histology">Histology</option>
+                    <option value="Human Services Technology">Human Services Technology</option>
+                    <option value="Medical Assistant">Medical Assistant</option>
+                    <option value="Medical Laboratory Technician">Medical Laboratory Technician</option>
+                    <option value="Nuclear Medicine Technology">Nuclear Medicine Technology</option>
+                    <option value="Occupational Therapy Assistant">Occupational Therapy Assistant</option>
+                    <option value="Pharmacy Technician">Pharmacy Technician</option>
+                    <option value="Physical Therapist Assistant">Physical Therapist Assistant</option>
+                    <option value="Radiography">Radiography</option>
+                    <option value="Registered Nursing">Registered Nursing</option>
+                    <option value="Respiratory Therapist">Respiratory Therapist</option>
+                    <option value="Surgical Technology">Surgical Technology</option>
+                    <option value="Vocational Nursing">Vocational Nursing</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_1879407384" class="control-label">Faculty or Staff?</label>
+                <div class="controls">
+                  <select id="entry_1879407384" name="entry.1879407384">
+                    <option value="Faculty">Faculty</option>
+                    <option value="Staff">Staff</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Row -->
+          
+          <p class="breathing-room">
+            Please answer the following questions as completely as possible. 
+            Your answers will be the only tool the awards committee will use to 
+            decide the 2013 ACE Award honorees.
+          </p>
+          
+          <p>
+            <label for="entry_1360318643">Please describe how your nominee displays <strong class='highlight'>accountability</strong> to the students, faculty and staff they serve.</label>          
+            <textarea id="entry_1360318643" name="entry.1360318643" class="span12 required"></textarea>
+          </p>
+          
+          <p>
+            <label for="entry_1187789461">Please describe how your nominee <strong class='highlight'>communicates</strong> with the students, faculty and staff they serve.</label>          
+            <textarea id="entry_1187789461" name="entry.1187789461" class="span12 required"></textarea>
+          </p>
+          
+          <p>
+            <label for="entry_101999057">Please describe how your nominee displays <strong class='highlight'>ethics</strong> to the students, faculty and staff they serve.</label>          
+            <textarea id="entry_101999057" name="entry.101999057" class="span12 required"></textarea>
+          </p>
+          
+          <p>
+            <label for="entry_456964780">Please include any additional information about your nominee.</label>          
+            <textarea id="entry_456964780" name="entry.456964780" class="span12"></textarea>
+          </p>
+          
+          <h3>Your Information</h3>
+          
+          <div class="row">
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_2004122117" class="control-label">Your First Name</label>
+                <div class="controls">
+                  <input type="text" id="entry_2004122117" name="entry.2004122117" aria-required="true" class='required'>                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_773199450" class="control-label">Your Last Name</label>
+                <div class="controls">
+                  <input type="text" id="entry_773199450" name="entry.773199450" aria-required="true" class='required'>                  
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Row -->
+          
+          <div class="row">
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_464507372" class="control-label">Your Email Address</label>
+                <div class="controls">
+                  <input type="text" id="entry_464507372" name="entry.464507372" aria-required="true" class='required'>                  
+                </div>
+              </div>
+            </div>
+            
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_3324581" class="control-label">Your Program</label>
+                <div class="controls">
+                  <select id="entry_3324581" name="entry.3324581">
+                    <option value="Administrative/ Staff">Administrative/ Staff</option>
+                    <option value="Biosafety">Biosafety</option>
+                    <option value="Computed Tomography">Computed Tomography</option>
+                    <option value="Dental Assisting">Dental Assisting</option>
+                    <option value="Dental Hygiene">Dental Hygiene</option>
+                    <option value="Diagnostic Medical Sonography">Diagnostic Medical Sonography</option>
+                    <option value="Health Information Technology">Health Information Technology</option>
+                    <option value="Histology">Histology</option>
+                    <option value="Human Services Technology">Human Services Technology</option>
+                    <option value="Medical Assistant">Medical Assistant</option>
+                    <option value="Medical Laboratory Technician">Medical Laboratory Technician</option>
+                    <option value="Nuclear Medicine Technology">Nuclear Medicine Technology</option>
+                    <option value="Occupational Therapy Assistant">Occupational Therapy Assistant</option>
+                    <option value="Pharmacy Technician">Pharmacy Technician</option>
+                    <option value="Physical Therapist Assistant">Physical Therapist Assistant</option>
+                    <option value="Radiography">Radiography</option>
+                    <option value="Registered Nursing">Registered Nursing</option>
+                    <option value="Respiratory Therapist">Respiratory Therapist</option>
+                    <option value="Surgical Technology">Surgical Technology</option>
+                    <option value="Vocational Nursing">Vocational Nursing</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Row -->
+          
+          <div class="row">
+            <div class="span6">
+              <div class="control-group">
+                <label for="entry_1520030645" class="control-label">Student or Faculty/Staff?</label>
+                <div class="controls">
+                  <select id="entry_1520030645" name="entry.1520030645" class="required">
+                    <option value="Student">Student</option>
+                    <option value="Faculty/Staff">Faculty/Staff</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Row -->
+          
+          <input type="submit" value="Submit Form" name="submit" id="ss-submit">
+        </form>
+      </div>
+    </div>
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.9.1.min.js"%3E%3C/script%3E'))</script>
+  	<script src="js/jquery.validate.js"></script>
+  	<script src="js/site.js"></script>
+  </body>
+</html>
