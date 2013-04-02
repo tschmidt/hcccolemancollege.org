@@ -1,0 +1,421 @@
+body {
+  color: #505050;
+}
+
+/*
+A containing block used to set a common width for the page layout.
+
+No styleguide reference
+*/
+.container {
+  background-color: white;
+  padding: 70px 70px 50px;
+}
+
+.heading-primary {
+  color: #000;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.heading-primary h1 {
+  padding-top: 27px;
+}
+
+.heading-primary span {
+  text-transform: lowercase;
+  letter-spacing: 1;
+  
+  padding-right: 2px;
+}
+
+.heading-primary img {
+  margin-left: 20px;
+  width: 90px;
+}
+
+.heading-primary img:nth-child(1) {
+  margin-top: -16px;
+}
+
+.heading-primary img:nth-child(2) {
+  margin-top: 16px;
+}
+
+.jumpoff {
+  color: #222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.intro p:nth-child(2) {
+  font-style: italic;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+.color-cube {
+  background-color: #999;
+  height: 260px;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+  .color-cube p {
+    color: white;
+    font-size: .9em;
+    
+    margin: 0;
+    padding: 0;
+      
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+  }
+
+.team-links {
+  margin-bottom: 50px;
+}
+  
+.discipline-team-nursing .color-cube,
+.discipline-team-nursing h3:before {
+  background-color: #4f0b7b;
+}
+
+.discipline-team-patient-care .color-cube,
+.discipline-team-patient-care h3:before {
+  background-color: #b734bb;
+}
+
+.discipline-team-therapeutic .color-cube,
+.discipline-team-therapeutic h3:before {
+  background-color: #00c473;
+}
+
+.discipline-team-diagnostic .color-cube,
+.discipline-team-diagnostic h3:before {
+  background-color: #6aade4;
+}
+
+.discipline-team-health-admin .color-cube,
+.discipline-team-health-admin h3:before {
+  background-color: #ec7a08;
+}
+
+.discipline-team-dental .color-cube,
+.discipline-team-dental h3:before {
+  background-color: #c4262e;
+}
+
+.prereqs {
+  background-color: #9a9a9a;
+  padding: 1px 10px;
+}
+
+.related-program {
+  padding: 1px 10px;
+  color: white;
+}
+
+.discipline-team-nursing .prereqs {
+  background-color: rgb(225, 221, 230);
+}
+.discipline-team-nursing .recommendation {
+  color: rgb(67, 45, 115);
+}
+
+
+
+
+.discipline-team-patient-care .prereqs {
+  background-color: rgb(239, 229, 235);
+}
+.discipline-team-patient-care .recommendation {
+  color: rgb(139, 63, 132);
+}
+.discipline-team-patient-care .related-program {
+  background-color: rgb(139, 63, 132);
+}
+
+
+
+
+.discipline-team-therapeutic .prereqs {
+  background-color: rgb(233, 244, 235);
+}
+.discipline-team-therapeutic .recommendation {
+  color: rgb(1, 168, 124);
+}
+.discipline-team-therapeutic .related-program {
+  background-color: rgb(1, 168, 124);
+}
+
+
+
+
+.discipline-team-diagnostic .prereqs {
+  background-color: rgb(238, 244, 247);
+}
+.discipline-team-diagnostic .recommendation {
+  color: rgb(101, 166, 205);
+}
+.discipline-team-diagnostic .related-program {
+  background-color: rgb(101, 166, 205);
+}
+
+
+
+
+.discipline-team-health-admin .prereqs {
+  background-color: rgb(254, 239, 224);
+}
+.discipline-team-health-admin .recommendation {
+  color: rgb(230, 131, 67);
+}
+.discipline-team-health-admin .related-program {
+  background-color: rgb(230, 131, 67);
+}
+
+
+
+
+.discipline-team-dental .prereqs {
+  background-color: rgb(250, 228, 217);
+}
+.discipline-team-dental .recommendation {
+  color: rgb(196, 41, 57);
+}
+.discipline-team-dental .related-program {
+  background-color: rgb(196, 41, 57);
+}
+
+
+
+
+/*
+Sections used in conjunction with the jQuery Parallax plugin
+
+No styleguide reference
+*/
+.parallax-section {
+  background: rgb(170, 198, 211) url("../images/BG1.jpg") fixed no-repeat 50% 0;
+}
+
+.parallax-section.one {
+  background-image: url("../images/BG1.jpg");
+}
+
+.parallax-section.two {
+  background-image: url("../images/BG2.jpg");
+  background-color: rgb(143, 42, 113);
+}
+
+.parallax-section.three {
+  background-image: url("../images/BG3.jpg");
+  background-color: rgb(150, 131, 122);
+}
+
+.parallax-section.four {
+  background-image: url("../images/BG4.jpg");
+  background-color: rgb(151, 166, 195);
+}
+
+.parallax-section.five {
+  background-image: url("../images/BG5.jpg");
+  background-color: white;
+}
+
+.program {
+  min-height: 1000px;
+}
+
+.separator {
+  background-color: white;
+  border: none;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.programs li {
+  list-style: circle;
+}
+
+.program h3 {
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+}
+
+  .program h3:before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right:   5px;
+  }
+
+.recommendation {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+}
+
+.in-a-flash {
+  margin-bottom: 10px;
+}
+
+.in-a-flash dt {
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.in-a-flash dt:first-of-type {
+  margin-top: 0;
+}
+
+.in-a-flash dt:after {
+  content: ':';
+}
+
+.in-a-flash dd {
+  margin: 0 0 5px;
+}
+
+.in-a-flash dd:last-child {
+  margin-bottom: 0;
+}
+
+.in-a-flash ul {
+  margin: 20px;
+}
+
+.in-a-flash li {
+  list-style: none;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.in-a-flash li:before {
+  content: '-';
+  position: absolute;
+  left: -12px;
+  top: -2px;
+}
+
+  .in-a-flash li li {
+    list-style: disc;
+  }
+
+  .in-a-flash li li:before {
+    content: '';
+  }
+
+.table tbody td {
+  border: none;
+  padding: 3px 10px 3px 0;
+}
+
+.table tbody tr:hover td {
+  background-color: transparent;
+}
+
+
+
+/*
+    Font Styles
+    =========================================================== */
+
+.fontface p,
+.fontface a,
+.fontface .jumpoff,
+.fontface .in-a-flash dd,
+.fontface .in-a-flash table * {
+  font-family: "franklin-gothic-urw",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.fontface .heading-primary,
+.fontface .color-cube p,
+.fontface .program > h3,
+.fontface .in-a-flash dt,
+.fontface .recommendation {
+  font-family: "franklin-gothic-urw-cond",sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.fontface .intro p:nth-child(2) {
+  font-family: "adobe-caslon-pro", serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.fontface .heading-primary h1 {
+  font-weight: 500;
+}
+
+.fontface .color-cube p,
+.fontface .in-a-flash dt {
+  letter-spacing: .07em;
+}
+
+.fontface .jumpoff {
+  letter-spacing: .05em;
+}
+
+.fontface .in-a-flash dt,
+.fontface .program > h3 {
+  font-weight: 700;
+}
+
+.fontface .heading-primary span {
+  font-family: "penna",sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  
+  letter-spacing: .08em;
+  
+  padding-right: .2em;
+}
+
+.fontface .intro p:nth-child(2) {
+  font-size: 1.2em;
+}
+
+.fontface .color-cube p {
+  font-size: 1.1em;
+}
+
+
+
+
+
+
+/*
+    Print Styles
+    =========================================================== */
+
+@media print {
+  .parallax-section {
+    background: white;
+  }
+  
+  .page-break-before {
+    page-break-before: always;
+  }
+  
+  .page-break-after {
+    page-break-after: always;
+  }
+}
