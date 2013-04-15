@@ -105,6 +105,17 @@ label.error {
       display: block;
       text-align: right;
     }
+  
+  form {
+    margin: auto 0;
+  }
+  
+  .form-horizontal [class*="span"] {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0;
+  }
 }
 
 /* Landscape phone to portrait tablet */
