@@ -48,6 +48,11 @@ header.main {
   .announcement {
     margin-bottom: 40px;
   }
+  
+  .announcement .event-closed {
+    color: #656565;
+    padding: 40px 0;
+  }
 
   .announcement p span {
     font-size: 30px;
