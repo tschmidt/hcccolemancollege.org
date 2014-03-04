@@ -1,153 +1,63 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
 body {
-  background-color: #fff3c7;
-  background-color: rgb(255,243,199);
-  color: #494949;
-}
+  background: #f5f4ed;
+  color: #c2a891; }
 
-.image-text {
-  text-indent: -9999px;
-}
+label {
+  color: #5aa6a1; }
 
-form, p {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+label.radio-inline {
+  color: #c2a891; }
 
-h3,
-form h3 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.15rem;
-  font-weight: 500;
+header {
+  background: url("../images/checkerboard.png") repeat-x scroll top center;
+  padding-top: 120px; }
+
+header h1 {
+  color: #96252b;
+  font-size: 50px; }
+
+header h2 {
+  font-size: 45px;
+  letter-spacing: 9px;
   text-transform: uppercase;
-}
+  margin-top: 0; }
 
-.breathing-room {
-  margin: 20px 0 30px 0;
-}
+header h1 {
+  letter-spacing: 6px; }
+header p {
+  padding: 40px 0; }
 
-.highlight {
-  color: rgb(88,190,133);
-}
+p, form {
+  font-size: 24px;
+  font-weight: 200; }
 
-/*
- * Bootstrap Overrides
- *===================================================
- */
+section {
+  background: url("../images/trianglepattern.png") repeat-x scroll top center;
+  padding: 160px 0 40px 0; }
 
-.form-horizontal .control-label {
-  text-align: left;
-}
+footer {
+  background: url("../images/checkerboard.png") repeat-x scroll bottom center;
+  height: 80px; }
 
-.lead {
-  font-family: Helvetica, sans-serif;
-}
+.form-group {
+  padding-top: 40px; }
 
-.page-header {
-  border-color: #5EBD86;
-}
+.help-block {
+  font-size: 16px; }
 
-/*
- * Header
- *===================================================
- */
- 
-.container {
-/*  border: 1px dotted silver;*/
-}
-
-.container > header {
-  height: 250px;
-  position: relative;
-}
-
-.container > header h1 {
-  height: 450px;
-  width: 600px;
-  background-image: url('../img/primary_header.png');
-  position: absolute;
-  left: -200px;
-  top: -160px;
-}
-
-.container > header h2 {
-  height: 450px;
-  width: 600px;
-  background-image: url('../img/secondary_header.png');
-  position: absolute;
-  bottom: -125px;
-  right: -190px;
-}
-
-
-
-/*
- * Forms
- *===================================================
- */
-
-.form-horizontal textarea {
-  height: 110px;
-  margin-bottom: 20px;
-}
-
-.form-horizontal [type=submit] {
-  background-color: rgb(88,190,133);
-  border: none;
-  color: #fff;
+.btn.btn-default {
+  background-color: #b4cfc9;
+  border-color: #b4cfc9;
+  border-radius: 2px;
+  color: #5aa6a1;
   display: block;
-  margin: 30px auto 90px;
-  position: relative;
-  width: 160px;
-  text-align: center;
-  text-transform: uppercase;
-}
+  font-size: 22px;
+  margin: 40px auto 0;
+  padding: 10px 40px; }
 
 .error {
-  color: #b94a48;
-}
-
-textarea.error {
-  margin-bottom: 0;
-}
-
-
-
-
-/*
- * Mobile Settings
- *===================================================
- */
-
-@media (max-width: 767px) {
-  
-  .container > header h1,
-  .container > header h2 {
-    display: block;
-    position: relative;
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: auto;
-    width: auto;
-  }
-  
-  .container > header h1 {
-    height: 255px;
-    background-position: 56% -130px;
-  }
-  
-  .container > header h2 {
-    height: 145px;
-    background-position: 56% -160px;
-  }
-  
-  .container > header {
-    height: auto;
-  }
-  
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .form-horizontal .span6 {
-    float: none;
-  }
-}
+  color: #96252b;
+  font-size: 16px; }
