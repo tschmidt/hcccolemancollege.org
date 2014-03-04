@@ -30,54 +30,52 @@ $(document).ready(function () {
 			var $form = $(form);
 			var form_json = $.parseJSON(JSON.stringify($form.serializeArray()));
 			var $target = $('section > div');
-			$.post(form.action, $form.serialize())
-				.done(function (data) {
-					if (data.indexOf("Your response has been recorded") != -1) {
-						$target.html("<h1>Your entry has been recorded!</h1>");
-						$.each(form_json, function (index, obj) {
-							var str = '';
-							var sub_name;
-							switch(obj.name) {
-								case 'entry.12281964':
-									sub_name = "Nominee's First Name is ";
-									break;
-								case 'entry.1773125362':
-									sub_name = "Nominee's Last Name is ";
-									break;
-								case 'entry.1083607361':
-									sub_name = "Nominee is a ";
-									break;
-								case 'entry.1144610534':
-									sub_name = "Nominee's program/department is ";
-									break;
-								case 'entry.592716203':
-									sub_name = "The reason I am nominating this person is:<br>";
-									break;
-								case 'entry.611344407':
-									sub_name = "My first name is ";
-									break;
-								case 'entry.1828262443':
-									sub_name = "My last name is ";
-									break;
-								case 'entry.160748257':
-									sub_name = "I am a ";
-									break;
-								case 'entry.577903352':
-									sub_name = 'My program/department is ';
-									break;
-								case 'entry.1986910403':
-									sub_name = "My email is "
-									break;
-							}
-							$target.append("<p>" + sub_name + obj.value + "<p>")
-						})
-					} else {
-						console.log('form failed to submit');
-					}
-				})
-				.fail(function () {
-					console.log("$.post failed");
-				})
+			submitted = true;
+			form.submit();
+			$form.find('button').attr('disabled', true).text('Submitting...');
+			
+			setTimeout(function() {
+				if (submitted_successful) {
+					$target.html("<h1>Your entry has been recorded!</h1>");
+					$.each(form_json, function (index, obj) {
+						var str = '';
+						var sub_name;
+						switch(obj.name) {
+							case 'entry.12281964':
+								sub_name = "Nominee's First Name is ";
+								break;
+							case 'entry.1773125362':
+								sub_name = "Nominee's Last Name is ";
+								break;
+							case 'entry.1083607361':
+								sub_name = "Nominee is a ";
+								break;
+							case 'entry.1144610534':
+								sub_name = "Nominee's program/department is ";
+								break;
+							case 'entry.592716203':
+								sub_name = "The reason I am nominating this person is:<br>";
+								break;
+							case 'entry.611344407':
+								sub_name = "My first name is ";
+								break;
+							case 'entry.1828262443':
+								sub_name = "My last name is ";
+								break;
+							case 'entry.160748257':
+								sub_name = "I am a ";
+								break;
+							case 'entry.577903352':
+								sub_name = 'My program/department is ';
+								break;
+							case 'entry.1986910403':
+								sub_name = "My email is "
+								break;
+						}
+						$target.append("<p>" + sub_name + obj.value + "<p>")
+					});
+				}
+			}, 1200);
 		}
 	});
 });

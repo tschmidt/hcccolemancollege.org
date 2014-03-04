@@ -27,8 +27,11 @@
 					Please fill out this form as completely as possible. It will be the only tool
 					the ACE Award Committee uses to determine the ACE Award honorees.
 				</p>
+				
+				<script type="text/javascript">var submitted = false; submitted_successful = false</script>
+        <iframe class='hide' name="hidden_frame" id="hidden_frame" onload="if(submitted) { submitted_successful = true; }"></iframe>
 
-				<form role='form' id='aceForm' action='https://docs.google.com/forms/d/1-uTKyPmsdX8PV0F3PLoC1i_7CNcDlxnJjzk4hYzZbMg/formResponse' method='POST'>
+				<form role='form' id='aceForm' action='https://docs.google.com/forms/d/1-uTKyPmsdX8PV0F3PLoC1i_7CNcDlxnJjzk4hYzZbMg/formResponse' method='POST' target="hidden_frame">
 					<div class='row'>
 						<div class='form-group col-sm-6'>
 							<label for='nominee_first_name' class='control-label'>Your Nominee's First Name</label>
@@ -69,7 +72,7 @@
 								<option value='Human Service Technology'>Human Service Technology</option>
 								<option value='Medical Assistant'>Medical Assistant</option>
 								<option value='Medical Laboratory Technician'>Medical Laboratory Technician</option>
-								<option value='Nuclear Medicine Technologist'>Nuclear Medicine Technologist</option>
+								<option value='Nuclear Medicine Technology'>Nuclear Medicine Technology</option>
 								<option value='Occupational Therapy Assistant'>Occupational Therapy Assistant</option>
 								<option value='Pharmacy Technician'>Pharmacy Technician</option>
 								<option value='Physical Therapist Assistant'>Physical Therapist Assistant</option>
@@ -141,7 +144,7 @@
 								<option value='Human Service Technology'>Human Service Technology</option>
 								<option value='Medical Assistant'>Medical Assistant</option>
 								<option value='Medical Laboratory Technician'>Medical Laboratory Technician</option>
-								<option value='Nuclear Medicine Technologist'>Nuclear Medicine Technologist</option>
+								<option value='Nuclear Medicine Technology'>Nuclear Medicine Technology</option>
 								<option value='Occupational Therapy Assistant'>Occupational Therapy Assistant</option>
 								<option value='Pharmacy Technician'>Pharmacy Technician</option>
 								<option value='Physical Therapist Assistant'>Physical Therapist Assistant</option>
@@ -166,7 +169,6 @@
 		</section>
 		
 		<footer></footer>
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/nomination.js" type="text/javascript" charset="utf-8"></script>
