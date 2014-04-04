@@ -1,0 +1,88 @@
+$light_tan: #F5F4ED;
+$dark_tan: #C2A891;
+$blue: #B4CFC9;
+$dark_blue: #5AA6A1;
+$red: #96252B;
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background: $light_tan;
+	color: $dark_tan;
+}
+
+label {
+	color: $dark_blue;
+}
+
+label.radio-inline {
+	color: $dark_tan;
+}
+
+header {
+	background: url('../images/checkerboard.png') repeat-x scroll top center;
+	padding-top: 120px;
+}
+
+header h1 {
+	color: $red;
+	font-size: 50px;
+}
+
+header h2 {
+	font-size: 45px;
+	letter-spacing: 9px;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+header {
+	h1 {
+		letter-spacing: 6px;
+	}
+	
+	p {
+		padding: 40px 0;
+	}
+}
+
+p, form {
+	font-size: 24px;
+	font-weight: 200;
+}
+
+section {
+	background: url('../images/trianglepattern.png') repeat-x scroll top center;
+	padding: 160px 0 40px 0;
+}
+
+footer {
+	background: url('../images/checkerboard.png') repeat-x scroll bottom center;
+	height: 80px;
+}
+
+.form-group {
+	padding-top: 40px;
+}
+
+.help-block {
+	font-size: 16px;
+}
+
+.btn.btn-default {
+	background-color: $blue;
+	border-color: $blue;
+	border-radius: 2px;
+	color: $dark_blue;
+	display: block;
+	font-size: 22px;
+	margin: 40px auto 0;
+	padding: 10px 40px;
+}
+
+.error {
+	color: $red;
+	font-size: 16px;
+}
