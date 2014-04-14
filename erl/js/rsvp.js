@@ -14,9 +14,7 @@ $(document).ready(function () {
 			$form.find('button').attr('disabled', true).text('Submitting...');
 			
 			setTimeout(function() {
-				if (submitted_successful) {
-					$target.html("<h1>Your seat has been reserved!</h1>");
-				}
+				$target.html("<h1>Your seat has been reserved!</h1>");
 			}, 1200);
 		}
 	});
